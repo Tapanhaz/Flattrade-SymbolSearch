@@ -1,13 +1,17 @@
 # Flattrade-SymbolSearch
 ***Downloading and searching symbols in Flattrade symbolmaster***
 
-***==>This code needs python 3.11 and latest pandas (above 2.0) to run correctly.***
+***==> This code needs python 3.11 and latest pandas (above 2.0) to run correctly.***
 
-***==>BFO Exchange is still not implemented.***
+***==> BFO Exchange is still not implemented.***
 
-***==>It is still in development phase and may produce various errors.***
+***==> It is still in development phase and may produce various errors.***
 
-***==>Sometimes it is stucked when fetching symbolmaster(from web). I couldn't figure out the reason till now.***
+***==> Sometimes it is stucked when fetching symbolmaster(from web). I couldn't figure out the reason till now.***
+
+***==> get_exchange will not work correctly if "NSE" and "NFO" both exchange are initialised at same instance.*** ***Some common symbols creates that issue.*** 
+
+        ***So two separate instances needed to run thing correctly as for now.***
 
 
 
