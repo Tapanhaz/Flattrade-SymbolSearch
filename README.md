@@ -2,8 +2,11 @@
 Downloading and searching symbols in Flattrade symbolmaster
 
 ***This code needs python 3.11 and latest pandas (above 2.0) to run correctly.***
+
 ***BFO Exchange is still not implemented.***
+
 ***It is still in development phase and may produce various errors.***
+
 ***Sometimes it is stucked when fetching symbolmaster(from web). I couldn't figure out the reason till now.***
 
 <div class="cell markdown">
